@@ -4,9 +4,8 @@ A lightweight currency converter utility designed for converting US Dollars ($) 
 
 ---
 
-## 📌 Overview
-
-**Convert-Dollar-To-L.E** is a clean, single-page tool where users enter an amount in USD to get the corresponding value in EGP instantly. It serves as an excellent demonstration of real-time calculations using JavaScript input event listeners.
+## 📌 System Overview
+Convert-Dollar-To-L.E is a single-page calculation tool. When users input a value in USD, the interface computes and displays the corresponding EGP value instantly, demonstrating event-driven inputs in vanilla JavaScript.
 
 ---
 
@@ -14,34 +13,37 @@ A lightweight currency converter utility designed for converting US Dollars ($) 
 
 | Technology | Purpose |
 | ---------- | ------- |
-| HTML5      | User input interface |
-| CSS3       | Form styling and animations |
-| JavaScript | Rate calculation and input tracking |
+| HTML5      | Structured text fields and input form |
+| CSS3       | Form cards alignment and styling |
+| JavaScript | Real-time calculations and event tracking |
 
 ---
 
-## 🚀 Key Features
-
-* ⚡ **Instant Calculation:** Converts inputs on the fly as the user types.
-* 📱 **Compact UI:** Elegant layout focused on simplicity and readability.
-* 🔄 **Custom Rate Setting:** Easily configurable conversion rates inside the code.
-
----
-
-## 🏗️ Project Structure
-
-* `index.html` - Input fields and visual results interface.
-* `js/` - Directory holding calculation and UI handler logic.
+## 🚀 Core Features
+* ⚡ **Instant Calculations:** Executes currency conversions instantly as the user types.
+* 📱 **Compact & Clean UI:** Aesthetic dashboard card centered for maximum readability.
+* 🔄 **Configurable Exchange Rate:** Built with customizable rate variables within the script file.
 
 ---
 
-## 👨&zwj;💻 Author
+## 🏗️ Directory Structure
+```
+├── js/              # Logic scripts
+│   └── main.js      # Calculation and input hooks handler
+└── index.html       # Interface with inputs and result container
+```
 
+---
+
+## ⚙️ Setup & Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sayed-Herzallah/Convert-Dollar-To-L.E.git
+   ```
+2. Open `index.html` in your browser.
+
+---
+
+## 👨‍💻 Author
 **Sayed Herzallah**  
-Frontend Developer
-
----
-
-## ⭐ Support
-
-If you find this project useful, consider giving it a star on GitHub.
+Full Stack Developer
