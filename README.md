@@ -1,49 +1,62 @@
-# 💵 Currency Converter (USD to EGP)
+# 🚀 Convert-Dollar-To-L.E
 
-A lightweight currency converter utility designed for converting US Dollars ($) to Egyptian Pounds (EGP/L.E) dynamically.
+![HTML5](https://img.shields.io/badge/HTML5-Structure-orange?logo=html5) ![CSS3](https://img.shields.io/badge/CSS3-Design-blue?logo=css3) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript) ![License](https://img.shields.io/badge/License-MIT-green)
 
----
+## 📌 Description
+A professional codebase representing high-performance development practices, clean folder organization, and solid implementation standards. 
 
-## 📌 System Overview
-Convert-Dollar-To-L.E is a single-page calculation tool. When users input a value in USD, the interface computes and displays the corresponding EGP value instantly, demonstrating event-driven inputs in vanilla JavaScript.
+## 🛠️ Technology Stack
 
----
+| Tech | Purpose |
+| :--- | :--- |
+| HTML5 | Semantic structural markup |
+| CSS3 | Custom theme styling & layout grids |
+| JavaScript (ES6) | Client-side DOM manipulation & logic |
 
-## ⚙️ Tech Stack
+## 🧬 Architecture & Logic Flow
+Below is a conceptual visualization of the components and data rendering logic in this project.
 
-| Technology | Purpose |
-| ---------- | ------- |
-| HTML5      | Structured text fields and input form |
-| CSS3       | Form cards alignment and styling |
-| JavaScript | Real-time calculations and event tracking |
-
----
-
-## 🚀 Core Features
-* ⚡ **Instant Calculations:** Executes currency conversions instantly as the user types.
-* 📱 **Compact & Clean UI:** Aesthetic dashboard card centered for maximum readability.
-* 🔄 **Configurable Exchange Rate:** Built with customizable rate variables within the script file.
-
----
-
-## 🏗️ Directory Structure
-```
-├── js/              # Logic scripts
-│   └── main.js      # Calculation and input hooks handler
-└── index.html       # Interface with inputs and result container
+```mermaid
+graph TD
+    User([User Click/Event]) --> DOMEvent[JS Event Listener]
+    DOMEvent --> Logic[DOM Modification Logic]
+    Logic --> Render[UI CSS/Layout Update]
 ```
 
----
+## 📂 Folder Structure
+```text
+Convert-Dollar-To-L.E/
+├── [object Object]
+├── [object Object]
+├── [object Object]
+```
 
-## ⚙️ Setup & Installation
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js >= 20 (Required for build/server environments)
+- Modern Web Browser (Chrome, Edge, Firefox)
+
+### Setup & Launch
 1. Clone the repository:
    ```bash
    git clone https://github.com/Sayed-Herzallah/Convert-Dollar-To-L.E.git
    ```
-2. Open `index.html` in your browser.
+2. Navigate to folder:
+   ```bash
+   cd Convert-Dollar-To-L.E
+   ```
+3. Setup Environment:
+   ```bash
+   npm install
+   ```
+4. Run Locally:
+   ```bash
+   ${deps.next ? 'npm run dev' : (type === 'react' || type === 'angular' || type === 'backend') ? 'npm start' : 'Open index.html directly in your web browser'}
+   ```
 
 ---
-
-## 👨‍💻 Author
+## 👨‍💻 Developed By
 **Sayed Herzallah**  
-Full Stack Developer
+*Backend-Focused Full-Stack Developer*  
+[LinkedIn Profile](https://www.linkedin.com/in/sayed-herzallah) | [Portfolio](https://herzallah.me)
